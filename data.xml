@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+
+  <lecturers>
+    <lecturer id="L01">
+      <name>Dr. Kasaazi George</name>
+      <username>kasaazi</username>
+      <password>1234</password>
+      <units>
+        <unit>CSC201</unit>
+        <unit>CSC203</unit>
+        <unit>CSC205</unit>
+        <unit>CSC204</unit>
+        <unit>CSC202</unit>
+      </units>
+    </lecturer>
+    <lecturer id="L02">
+      <name>Mrs. Nantongo Bartha</name>
+      <username>nantongo</username>
+      <password>1234</password>
+      <units>
+        <unit>CSC201</unit>
+      </units>
+    </lecturer>
+    <lecturer id="L03">
+      <name>Ojok Ivan</name>
+      <username>ojok</username>
+      <password>1234</password>
+      <units>
+        <unit>CSC203</unit>
+      </units>
+    </lecturer>
+  </lecturers>
+
+  <units>
+    <unit id="CSC201"><name>Introduction to Databases</name></unit>
+    <unit id="CSC203"><name>Internet Technologies</name></unit>
+    <unit id="CSC205"><name>Object Oriented Programming</name></unit>
+    <unit id="CSC204"><name>Research Methods</name></unit>
+    <unit id="CSC202"><name>Software Engineering</name></unit>
+  </units>
+
+  <students>
+    <student id="S001">
+      <name>Amara Ariho</name>
+      <reg>24/U/ITE/12345/PE</reg>
+      <marks>
+        <unit id="CSC101" exam="72" assignment="80" submitted="Yes"/>
+        <unit id="CSC203" exam="68" assignment="75" submitted="Yes"/>
+        <unit id="CSC305" exam="80" assignment="85" submitted="Yes"/>
+        <unit id="CSC412" exam="55" assignment="60" submitted="Yes"/>
+        <unit id="CSC420" exam="90" assignment="88" submitted="Yes"/>
+      </marks>
+    </student>
+    <student id="S002">
+      <name>Charles Ochieng</name>
+      <reg>24/U/ITE/54321/PE</reg>
+      <marks>
+        <unit id="CSC101" exam="45" assignment="50" submitted="Yes"/>
+        <unit id="CSC203" exam="38" assignment="40" submitted="No"/>
+        <unit id="CSC305" exam="62" assignment="70" submitted="Yes"/>
+        <unit id="CSC412" exam="74" assignment="78" submitted="Yes"/>
+        <unit id="CSC420" exam="50" assignment="55" submitted="No"/>
+      </marks>
+    </student>
+    <student id="S003">
+      <name>Faith Pretty</name>
+      <reg>24/U/ITD/67890/PD</reg>
+      <marks>
+        <unit id="CSC101" exam="88" assignment="92" submitted="Yes"/>
+        <unit id="CSC203" exam="79" assignment="83" submitted="Yes"/>
+        <unit id="CSC305" exam="91" assignment="95" submitted="Yes"/>
+        <unit id="CSC412" exam="66" assignment="70" submitted="Yes"/>
+        <unit id="CSC420" exam="77" assignment="80" submitted="Yes"/>
+      </marks>
+    </student>
+    <student id="S004">
+      <name>Edryn Wagooli</name>
+      <reg>24/U/ITE/98765/PE</reg>
+      <marks>
+        <unit id="CSC101" exam="30" assignment="35" submitted="No"/>
+        <unit id="CSC203" exam="55" assignment="60" submitted="Yes"/>
+        <unit id="CSC305" exam="48" assignment="50" submitted="No"/>
+        <unit id="CSC412" exam="82" assignment="85" submitted="Yes"/>
+        <unit id="CSC420" exam="61" assignment="65" submitted="Yes"/>
+      </marks>
+    </student>
+    <student id="S005">
+      <name>Lillian Nalunkuuma</name>
+      <reg>24/U/ITD/11223/PD</reg>
+      <marks>
+        <unit id="CSC101" exam="95" assignment="97" submitted="Yes"/>
+        <unit id="CSC203" exam="88" assignment="90" submitted="Yes"/>
+        <unit id="CSC305" exam="76" assignment="80" submitted="Yes"/>
+        <unit id="CSC412" exam="70" assignment="72" submitted="Yes"/>
+        <unit id="CSC420" exam="84" assignment="88" submitted="Yes"/>
+      </marks>
+    </student>
+  </students>
+
+</school>
